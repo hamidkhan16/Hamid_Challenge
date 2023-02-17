@@ -1,0 +1,6 @@
+---
+# handlers file for apache-role
+- name: Reloaded apache2
+  service:
+    name: apache2
+    state: reloaded
